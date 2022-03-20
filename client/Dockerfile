@@ -1,5 +1,5 @@
 # Production build with Nginx and two stages
-FROM node:alpine as  builder
+FROM node:14 as  builder
 
 WORKDIR '/app'
 
